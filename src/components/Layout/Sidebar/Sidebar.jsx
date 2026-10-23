@@ -21,7 +21,7 @@ export default function Sidebar({ showSidebar, setShowSidebar }) {
               exit={{ x: "-100%" }}
               transition={{ duration: 0.2 }}
               className="fixed left-0 top-0 bottom-0 md:hidden flex w-56 overflow-y-auto
-            bg-[#efe3d2] flex-col justify-between gap-y-6 p-6 border-r border-bc/50 z-20"
+            bg-[#efe3d2] flex-col justify-between gap-y-6 p-6 border-r border-bc/50 z-30"
             >
               <SidebarContent setShowSidebar={setShowSidebar} />
             </motion.aside>

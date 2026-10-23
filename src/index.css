@@ -1,9 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
 @import "tailwindcss";
 
 @theme {
   --color-secondary: #817267;
   --color-box1: #fdf6ec;
-  --color-box2: #f1e5d7;
+  --color-box2: #f0e2d1;
+  --color-box3: #ddc5ac;
   --color-bc: #d4bda5;
+  --color-brown: #765640;
+
+  --font-display: "Plus Jakarta Sans", sans-serif;
 }
