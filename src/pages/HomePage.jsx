@@ -1,7 +1,9 @@
 import { useState } from "react";
+
 import Navbar from "../components/Layout/Navbar/Navbar";
 import Sidebar from "../components/Layout/Sidebar/Sidebar";
 import Header from "../components/Layout/Header/Header";
+import Welcome from "../components/Home/Welcome/Welcome";
 
 export default function HomePage() {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -15,7 +17,7 @@ export default function HomePage() {
       <main className="grow">
         <Header />
 
-        {/* more sections */}
+        <Welcome />
       </main>
     </div>
   );

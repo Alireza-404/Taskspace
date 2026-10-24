@@ -54,7 +54,7 @@ export default function Header() {
               transition={{ duration: 10, repeat: Infinity }}
               style={{ backgroundSize: "200% 200%" }}
               className="bg-gradient-to-r from-[#352a22] via-[#765640] to-[#352a22]
-                bg-clip-text font-display text-[28px] font-bold leading-tight
+                bg-clip-text font-display text-[28px] font-semibold leading-tight
                 text-transparent sm:text-4xl lg:text-[40px]"
             >
               Everything in its place.
@@ -126,15 +126,8 @@ export default function Header() {
       </div>
 
       <div
-        aria-hidden="true"
         className="pointer-events-none absolute left-1/2 top-0 -z-10 hidden h-32 w-2/3 -translate-x-1/2
         rounded-full bg-[#dfb588]/20 blur-3xl md:block"
-      />
-
-      <div
-        aria-hidden="true"
-        className="mx-4 h-px bg-gradient-to-r from-transparent
-        via-bc/50 to-transparent sm:mx-6 md:mx-8 lg:mx-12"
       />
     </header>
   );
