@@ -4,6 +4,7 @@ import Navbar from "../components/Layout/Navbar/Navbar";
 import Sidebar from "../components/Layout/Sidebar/Sidebar";
 import Header from "../components/Layout/Header/Header";
 import Welcome from "../components/Home/Welcome/Welcome";
+import Stats from "../components/Home/Stats/Stats";
 
 export default function HomePage() {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -18,6 +19,8 @@ export default function HomePage() {
         <Header />
 
         <Welcome />
+
+        <Stats />
       </main>
     </div>
   );
